@@ -1,0 +1,3 @@
+#define group soroush + mehryar - soroush - bardia
+
+asal += count(group) * 5000 : mehryar

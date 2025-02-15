@@ -1,0 +1,5 @@
+asal += 100 : mehryar + soroush
+pooya += 5 * 54 : mehryar + soroush + asal + bardia + hasti
+asal += 359 + 20 + 2 * 30 : mehryar + soroush
+asal += 199 + 20 + 2 * 30 : asal + bardia
+asal += 340 : pooya + hasti

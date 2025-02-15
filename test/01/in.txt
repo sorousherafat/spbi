@@ -1,0 +1,6 @@
+pooya += 300 + 150 + 2 * 7 + 55 + 30 : bardia + asal
+pooya += 150 + 7 + 25 : hasti
+pooya += 250 + 2 * 20 + 2 * 25 : mehryar + soroush
+pooya += 7 : soroush
+pooya += 25 : mehryar
+
