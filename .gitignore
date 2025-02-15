@@ -68,3 +68,8 @@ dkms.conf
 
 # CMake Build Debug
 cmake-build-debug
+
+# Flex/Bison generated files
+src/parser.c
+src/parser.h
+src/lexer.c
