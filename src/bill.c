@@ -92,12 +92,17 @@ void remove_imperfect_matches(transaction_map_t *transaction_map, transaction_li
             positive_balance->amount -= transaction->amount;
             negative_balance->amount = 0;
             negative_index--;
-        }
-        if (sum < 0) {
+        } else if (sum < 0) {
             transaction->amount = positive_balance->amount;
             negative_balance->amount += transaction->amount;
             positive_balance->amount = 0;
             positive_index++;
+        } else {
+            transaction->amount = positive_balance->amount;
+            positive_balance->amount = 0;
+            negative_balance->amount = 0;
+            positive_index++;
+            negative_index--;
         }
         transaction->from = negative_balance->id;
         transaction->to = positive_balance->id;
